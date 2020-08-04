@@ -1,0 +1,36 @@
+.icon{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+a{
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	background-color: #f5f6fa;
+	border-radius: 50px;
+	margin: 10px;
+	line-height: 100px;
+	box-shadow: 1px 4px 4px 4px #dcdde1;
+}
+a i{
+	transition: all 0.3s linear;
+
+}
+a:hover i{
+	transform: scale(1.4);
+
+}
+.fa-facebook-f{
+	color: #3655b3;
+}
+.fa-google{
+	color: #ed4444;
+}
+.fa-telegram-plane{
+	color: #77e7e7;
+}
+.fa-instagram{
+	color: #e7518d;
+}
